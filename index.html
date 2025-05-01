@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GitShow Test</title>
+    <!-- Optional: Add a CSS framework or custom styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+</head>
+<body>
+    <h1>Testing GitShow Worker</h1>
+
+    <h2>Embedding a Markdown File:</h2>
+    <script src="https://gitshow.littlecloud.workers.dev?githubUrl=https://raw.githubusercontent.com/linq84/quick-tel/blob/main/readme.md"></script>
+
+    <hr>
+
+    <h2>Embedding a Code File (JavaScript):</h2>
+    <script src="https://gitshow.littlecloud.workers.dev?githubUrl=https://raw.githubusercontent.com/user/repo/main/some-script.js"></script>
+
+    <hr>
+
+    <h2>Embedding Plain Text:</h2>
+    <script src="https://gitshow.littlecloud.workers.dev?githubUrl=https://raw.githubusercontent.com/user/repo/main/instructions.txt"></script>
+
+    <hr>
+
+    <h2>Invalid URL Test:</h2>
+    <script src="https://gitshow.<your-subdomain>.workers.dev?githubUrl=https://example.com/not-github"></script>
+
+    <hr>
+
+     <h2>Missing URL Test:</h2>
+    <script src="https://gitshow.littlecloud.workers.dev"></script>
+
+</body>
+</html>
