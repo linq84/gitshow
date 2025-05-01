@@ -1,0 +1,15 @@
+Sample Plain Text Instructions
+----------------------------
+
+These are simple instructions stored in a plain text file.
+
+1.  First, do this.
+2.  Then, do that.
+3.  Finally, do the other thing.
+
+Make sure to save your work frequently.
+
+Special characters that might need escaping if this wasn't treated as plain text:
+< > & " '
+
+End of instructions. 
